@@ -1,0 +1,230 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "PartIndustriaIntent",
+          "samples": [
+            "qual a participação da indústria catarinense no emprego formal"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "IndustriaObsIntent",
+          "samples": [
+            "Quais são os setores da indústria catarinense"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "EmpregoObsIntent",
+          "samples": [
+            "Qual número de empregos na indústria catarinense"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "setor",
+              "type": "tiposetor"
+            }
+          ],
+          "name": "SaldoEmpregoIntent",
+          "samples": [
+            "teste {setor}",
+            "teste dois {setor} "
+          ]
+        },
+        {
+          "slots": [],
+          "name": "EmpregoIndustriaIntent",
+          "samples": [
+            "qual número de empregos formais na indústria catarinense"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "SaldoMetalIntent",
+          "samples": [
+            "Qual número de empregos no setor de metalmecânica e metalurgia"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "SaldoProdutosIntent",
+          "samples": [
+            "Qual número de empregos no setor de produtos químicos e plástico"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "SaldoEquipamentosIntent",
+          "samples": [
+            "qual número de empregos no setor de equipamentos elétricos"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "SaldoAlimentosIntent",
+          "samples": [
+            "qual número de empregos no setor de alimentos e bebida"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "SaldoIndustriaIntent",
+          "samples": [
+            "qual número de empregos na indústria diversa"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "IndiceDesocupIntent",
+          "samples": [
+            "qual a taxa de desemprego de santa catarina e qual a comparação com a do brasil"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "PorcentagemPibIntent",
+          "samples": [
+            "qual a porcentagem da industria no pib do estado "
+          ]
+        },
+        {
+          "slots": [],
+          "name": "QuantidadeIndustriaIntent",
+          "samples": [
+            "qual o numero de industrias do estado de santa catarina"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "ManufaturaPibIntent",
+          "samples": [
+            "qual a participacao da manufatura no pib do estado"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "TerritorioSCIntent",
+          "samples": [
+            "quantos porcento o estado de santa catarina possui em relacao ao territorio do brasil"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "PorcentagemPopulacaoIntent",
+          "samples": [
+            "qual e a porcentagem da populacao de santa catarina em relacao a do brasil"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "PibScBrIntent",
+          "samples": [
+            "qual a participacao do estado de santa catarina em relacao ao pib do brasil"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "RankingIntent",
+          "samples": [
+            "qual o ranking do estado em relacao a economia do brasil"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "PaisesManufaturaIntent",
+          "samples": [
+            "com quais paises a taxa de manufatura do estado de santa catarina pode ser comparada"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "EstadosExpoIntent",
+          "samples": [
+            "qual o ranking do estado de santa catarina para estados exportadores do brasil"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "EstadosImportadoresIntent",
+          "samples": [
+            "qual o ranking do estado de santa catarina para estados importadores do brasil"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "estabelecimentos"
+              }
+            },
+            {
+              "name": {
+                "value": "produtos"
+              }
+            },
+            {
+              "name": {
+                "value": "economia"
+              }
+            }
+          ],
+          "name": "tipoanalise"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "industria diversa"
+              }
+            },
+            {
+              "name": {
+                "value": "alimentos e bebidas"
+              }
+            },
+            {
+              "name": {
+                "value": "equipamentos eletricos"
+              }
+            },
+            {
+              "name": {
+                "value": "produtos quimicos e plasticos"
+              }
+            },
+            {
+              "name": {
+                "value": "metalmecanica e metalurgia"
+              }
+            }
+          ],
+          "name": "tiposetor"
+        }
+      ],
+      "invocationName": "pergunte para ciana"
+    }
+  }
+}
